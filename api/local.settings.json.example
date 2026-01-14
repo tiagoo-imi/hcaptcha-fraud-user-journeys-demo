@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "StorageConnectionString": "UseDevelopmentStorage=true",
+    "JwtSecret": "CHANGE_ME_TO_A_LONG_RANDOM_SECRET_32+_CHARS",
+    "JwtIssuer": "hcaptcha-demo",
+    "JwtAudience": "hcaptcha-demo",
+    "JwtMinutes": "60",
+    "UseSecureCookies": "false",
+    "HCAPTCHA_SECRET": "",
+    "HCAPTCHA_SITEKEY": "",
+    "RUNNING_LOCAL": "true"
+  }
+}

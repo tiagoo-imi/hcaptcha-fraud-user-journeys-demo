@@ -1,0 +1,24 @@
+# --- .NET / Azure Functions ---
+**/bin/
+**/obj/
+api/local.settings.json
+
+# --- Node / Frontend ---
+**/node_modules/
+**/dist/
+
+# --- Azure SWA / tooling ---
+.swa/
+.azure/
+*.log
+
+# --- OS / IDE ---
+.vs/
+.vscode/
+*.user
+*.suo
+.DS_Store
+
+# --- Environment files ---
+.env
+.env.*

@@ -1,0 +1,4 @@
+/* Minimal extra styling (Bootstrap-first). */
+.page-wrap { min-height: 100vh; display: flex; flex-direction: column; }
+main { flex: 1; }
+.code-badge { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
