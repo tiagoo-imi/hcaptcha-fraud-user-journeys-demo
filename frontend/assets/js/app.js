@@ -2,7 +2,7 @@ import { initCommon } from "./page-common.js";
 import { requireAuth } from "./auth.js";
 import { onResetPasswordSubmit } from "./reset-password.js";
 import { onCheckoutSubmit } from "./checkout.js";
-import { getCart, cartCount, cartTotal } from "./cart.js";
+import { getCart, cartCount, cartTotal, addToCart } from "./cart.js";
 import { $, show, hide,  formatMoney, toast } from "./ui.js";
 
 const products = [

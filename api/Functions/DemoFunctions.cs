@@ -60,8 +60,10 @@ public sealed class DemoFunctions
         var sid = CookieService.Get(req, "sid");
         var access = CookieService.Get(req, "access");
         var principal = access != null ? _auth.Validate(access) : null;
-
         var userId = principal?.FindFirst("uid")?.Value;
+
+        _log.LogInformation("Ending session {SessionId} for user {UserId}", sid, userId);
+
         string? userEmail = principal?.FindFirst("email")?.Value;
         userEmail = userEmail?.Trim().ToLowerInvariant();
 
